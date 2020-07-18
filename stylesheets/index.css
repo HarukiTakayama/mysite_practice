@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    color: #222;
+    background-color: #F5F6CE;
+    display: block;
+    padding: 20px 50px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+    font-weight: bold;
+    display: block;
+    margin: 10px 10px
+}
+
+a:hover {
+    background-color: rgba(180, 180, 180, 0.4);
+}
+
+.global-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li {
+    border-left: solid #111 1px;
+}
+
+main {
+    padding: 100px 0;
+}
+
+#profile {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.profile-list {
+    margin-left: 60px;
+}
+
+.profile-list h1 {
+    margin-bottom: -10px;
+}
+
+#past-activities {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px
+}
+
+.past-description h1 {
+    margin-bottom: -10px;
+}
+
+.past-description li {
+    margin-right: 60px;
+}
+
+#current-activities {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.current-description{
+    margin-left: 60px;
+}
+
+.current-description h1 {
+    margin-bottom: -10px;
+}
+
+#future-activities {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.future-description {
+    margin-right: 60px;
+}
+
+.future-description h1 {
+    margin-bottom: -10px;
+}
+
+footer {
+    padding: 0px 10px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+i {
+    font-size: 40px;
+    color: rgba(50, 180, 30, 0.9);    
+}
