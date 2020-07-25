@@ -1,37 +1,33 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 body {
-    font-size: 20px;
+    padding: 20px 100px;
+    font-size: 18px;
     font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
-    color: #222;
     background-color: #F5F6CE;
     display: block;
-    padding: 20px 50px;
+}
+h1 {
+    margin-bottom: 10px; 
 }
 
-a {
-    text-decoration: none;
-    background-color: transparent;
-    color: inherit;
-    font-weight: bold;
-    display: block;
-    margin: 10px 10px
+header {
+    margin: 20px 0;
 }
 
-a:hover {
-    background-color: rgba(180, 180, 180, 0.4);
-}
-
-.global-nav ul {
+header ul {
     list-style: none;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 
 header li {
-    border-left: solid #111 1px;
+    padding: 10px;
+    border-left: solid #000 1px;
 }
 
 main {
@@ -40,42 +36,30 @@ main {
 
 #profile {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
 }
 
-.profile-list {
+.profile-content {
     margin-left: 60px;
-}
-
-.profile-list h1 {
-    margin-bottom: -10px;
 }
 
 #past-activities {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 100px
+    margin-bottom: 70px;
 }
 
-.past-description h1 {
-    margin-bottom: -10px;
-}
-
-.past-description li {
+.past-content {
     margin-right: 60px;
 }
 
 #current-activities {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
-.current-description{
+.current-content {
     margin-left: 60px;
-}
-
-.current-description h1 {
-    margin-bottom: -10px;
 }
 
 #future-activities {
@@ -83,22 +67,29 @@ main {
     justify-content: flex-end;
 }
 
-.future-description {
+.future-content {
     margin-right: 60px;
 }
 
-.future-description h1 {
-    margin-bottom: -10px;
-}
-
 footer {
-    padding: 0px 10px 20px 0;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
+    padding: 20px 10px 30px 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+    font-weight: bold;
+    margin: 10px;
+}
+
+a:hover {
+    color: #777777;
 }
 
 i {
-    font-size: 40px;
-    color: rgba(50, 180, 30, 0.9);    
+    font-size: 30px;
+    color: rgba(40, 180, 15, 0.9); 
 }
